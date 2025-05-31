@@ -37,4 +37,6 @@ The goal is to manually configure the GPIO peripheral, enable the clock via RCC,
 ├── .gitignore
 └── README.md
 
+```
+
 ![STM32F103C8T6](https://github.com/tairkhamitov/STM32_GPIO_Blink-Bare-metal/blob/main/exmpl.STM.png)
