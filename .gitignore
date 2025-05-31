@@ -1,0 +1,15 @@
+# Build files
+Debug/
+*.o
+*.elf
+*.map
+
+# IDE files
+*.launch
+*.settings/
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
