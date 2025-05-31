@@ -16,11 +16,11 @@ int main(void)
 		*pC1k1OutReg |= (1 << 13);
 
 
-		for(uint32_t i = 0 ; i < 10000 ; i++);
+		for(uint32_t i = 0 ; i < 300000 ; i++);
 
 
 		*pC1k1OutReg &= ~(1 << 13);
 
-		for(uint32_t i = 0 ; i < 10000 ; i++);
+		for(uint32_t i = 0 ; i < 300000 ; i++);
 	}
 }
